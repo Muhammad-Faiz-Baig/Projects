@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Martel Sans', sans-serif;
+}
+body{
+    background-color: black;
+
+}
+.main{
+    background-image:url("Assets/images/background-image.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:max(2000px,100vw);
+    height:80vh;
+    position: relative;
+}
+.main .box{
+    height:80vh;
+    width:100%;
+    opacity:0.69;
+    background-color:black;
+    position:absolute;
+    top:0;
+}
+nav{
+    max-width:60vw;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    height:62px;
+    padding-top:25px;
+}
+nav img{
+    width:112px;
+    position: relative;
+    z-index:10;
+
+}
+nav button{
+    position: relative;
+    z-index:10;
+}
+.heading{
+    height:calc(100% - 87px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    padding:0 30px;
+    
+}
+.heading> :first-child{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:900;
+    font-size:48px;
+    text-align: center;
+}
+.heading> :nth-child(2){
+    font-size:24px;
+    font-weight:400;
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+}
+.heading> :nth-child(3){
+    font-size:20px;
+    font-weight:400;
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+}
+.sepration{
+    height:7px;
+    background-color:#232323;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight:600;
+    background-color:rgba(248,243,243,0.021);
+    color:white;
+    border:1px solid white;
+    border-radius:4px;
+    cursor: pointer;
+}
+.btn-red{
+    border:none;
+    background-color:red;
+    color:white;
+    padding:3px 24px;
+    font-size:18px;
+    border-radius:4px;
+    font-weight:700;
+
+}
+.btn-red-sm{
+    font-weight:600;
+    padding: 3px 8px;
+    border: none;
+    color:white;
+    border-radius:4px;
+    cursor: pointer;
+    background-color:red;
+
+}
+.main input{
+    padding:7px 101px 8px 14px;
+    font-size:12px;
+    border-radius:4px;
+    background-color:rgba(23,23,23,0.7) ;
+    border:1px solid rgba(246,238,238,0.5) ;
+    color:white;
+
+}
+.button{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:16px;
+
+    
+}
+.first{
+    display:flex;
+    justify-content:center;
+    max-width:70vw;
+    margin:auto;
+    color: white;
+    align-items: center ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h2{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:400;
+    font-size:20px;
+    text-align: center;
+} 
+.section-img img{
+    width:30vw;
+    position: relative;
+    z-index:10;
+    
+}
+.section-img{
+    position: relative;
+}
+.section-img video{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.first >div{
+    display: flex;
+    flex-direction:column ;
+}
+.first >div :first-child{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 28px;
+    font-weight:800;
+}
+.first >div :nth-child(2){
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 18px;
+    font-weight:200;
+}
+.faq h2 {
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+    
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    font-family: 'Martel Sans', sans-serif;
+    transition: all 1s ease-out;
+    font-size:18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 18px;
+    max-width: 60vw;
+    margin: 26px auto;
+    cursor: pointer;
+}
+
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+/*For responsiveness*/
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .section-Img img {
+        width: 305px;
+    }
+
+    .section-Img video {
+        width: 305px;
+    }
+
+    .heading> :nth-child(1) {
+        font-size:28px;
+    }
+
+    .heading> :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .heading> :nth-child(3) {
+        font-size: 15px;
+    }
+
+    .heading-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+@media screen and (max-width: 667px){
+    .btn-red {
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 7px 8px;
+        font-size: 11px;
+        border-radius: 4px;
+        font-weight: 400;
+    }
+    .main input {
+        padding: 4px 42px 8px 11px;
+        font-size: 12px;
+        border-radius: 4px;
+        background-color: rgba(23,23,23,0.7);
+        border: 1px solid rgba(246,238,238,0.5);
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
+

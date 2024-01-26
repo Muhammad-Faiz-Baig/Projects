@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(#b92b27, #1565c0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom:15px;
+}
+
+#ans {
+    font-weight: 700;
+    color: #fff;
+    padding:10px;
+    width:28rem;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+#ans::placeholder {
+    color: #a4c3b2;
+}
+
+#ans:focus {
+    border-color: #a4c3b2;
+}
+h1{
+    color:white;
+    font-weight: 700;
+    display: none;
+}
