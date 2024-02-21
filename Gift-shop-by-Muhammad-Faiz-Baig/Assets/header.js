@@ -25,19 +25,19 @@ function addNavigationBar() {
               Categories
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Shop</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+              <li><a class="dropdown-item" href="./about-us.html">About-Us</a></li>
+              <li><a class="dropdown-item" href="./contact.html">Contact-Us</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/shop.html">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact-us</a>
+            <a class="nav-link" href="./contact.html">Contact-us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About-us</a>
+            <a class="nav-link" href="./about-us.html">About-us</a>
           </li>
         </ul>
         <ul class="d-flex icons mb-2 mb-lg-0">

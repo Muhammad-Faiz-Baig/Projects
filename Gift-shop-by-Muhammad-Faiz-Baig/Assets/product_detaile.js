@@ -7,7 +7,6 @@ function getProductIdFromQueryParam() {
   const queryParams = new URLSearchParams(window.location.search);
   return queryParams.get('id') || 1;
 }
-
 function fetchProductDetails(productId) {
   fetch('./Assets/cards.json')
       .then(response => response.json())
