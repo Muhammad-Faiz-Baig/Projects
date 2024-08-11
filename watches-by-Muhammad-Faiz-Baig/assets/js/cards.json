@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/pic182 (2).png",
+        "productimage1": "./assets/pic182 (2).png",
+        "productimage2": "./assets/pic182 (2).png",
+        "productimage3": "./assets/pic182 (2).png",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    },
+    {
+        "id": 2,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/1.webp",
+        "productimage1": "./assets/1.webp",
+        "productimage2": "./assets/1.webp",
+        "productimage3": "./assets/1.webp",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    },
+    {
+        "id": 3,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/pic182 (3).png",
+        "productimage1": "./assets/pic182 (3).png",
+        "productimage2": "./assets/pic182 (3).png",
+        "productimage3": "./assets/pic182 (3).png",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    },
+    {
+        "id": 4,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/4.webp",
+        "productimage1": "./assets/4.webp",
+        "productimage2": "./assets/4.webp",
+        "productimage3": "./assets/4.webp",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    },
+    {
+        "id": 5,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/pic182 (1).png",
+        "productimage1": "./assets/pic182 (1).png",
+        "productimage2": "./assets/pic182 (1).png",
+        "productimage3": "./assets/pic182 (1).png",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    }
+    ,
+    {
+        "id": 6,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/w6.png",
+        "productimage1": "./assets/w6.png",
+        "productimage2": "./assets/w6.png",
+        "productimage3": "./assets/w6.png",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    }
+    ,
+    {
+        "id": 6,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/7.webp",
+        "productimage1": "./assets/7.webp",
+        "productimage2": "./assets/7.webp",
+        "productimage3": "./assets/7.webp",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    }
+    ,
+    {
+        "id": 8,
+        "sessiontitle": "Adidas",
+        "productprice": "$311.00",
+        "producttitle": "Felix Waxed Canvas Bag",
+        "productimage": "./assets/8.webp",
+        "productimage1": "./assets/8.webp",
+        "productimage2": "./assets/8.webp",
+        "productimage3": "./assets/8.webp",
+        "imagealt": "Adidas",
+        "category": "Adidas",
+        "brand": "watches"
+        
+    }
+   
+    
+]
